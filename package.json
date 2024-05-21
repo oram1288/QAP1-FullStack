@@ -1,0 +1,14 @@
+{
+  "name": "qap1-fullstack",
+  "version": "1.0.0",
+  "description": "QAP 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cody Oram",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.12.0"
+  }
+}
