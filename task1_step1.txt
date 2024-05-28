@@ -1,0 +1,42 @@
+HTTP:
+- The HTTP module can create an HTTP server that listens to 
+server ports and gives a response back to the client.
+
+EVENTS:
+- Node.js has a built-in module, called "Events", where you 
+can create, fire, and listen for, your own events.
+
+FS:
+- The Node.js file system module allows you to work with the 
+file system on your computer.
+
+CONSOLE:
+- The node console module provides a simple debugging console 
+that is similar to the JavaScript console mechanism provided by web browsers.
+
+BUFFER:
+- The buffers module provides a way of handling streams of binary data.
+It is a global object in Node.js, and it is not necessary to import it using 
+the require keyword.
+
+GLOBAL:
+- Node global is a reference to the real global scope object in NodeJS, somewhat 
+like using window in a browser JS environment.
+
+STREAM:
+- A stream is an abstract interface for working with streaming data in Node.js. 
+The node:stream module provides an API for implementing the stream interface.
+
+URL:
+- The URL module splits up a web address into readable parts. To include the URL 
+module, use the require() method.
+
+PATH:
+- The Path module provides a way of working with directories and file paths.
+
+OS:
+- The OS module provides information about the computer's operating system.
+
+PROCESS:
+- The process object provides information about, and control over, the 
+current Node.js process.
