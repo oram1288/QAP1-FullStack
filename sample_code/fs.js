@@ -4,7 +4,9 @@ const http = require("http");
 serveFile("../index.html");
 
 function serveFile(fileName) {
+  // Create Server
   const server = http.createServer(function (req, res) {
+    // Reads the file
     const theHtml = fs.readFileSync(fileName, "utf8");
     console.log("file was served.");
     res.writeHead(200, { "Content-Type": "text/html" });
@@ -12,6 +14,7 @@ function serveFile(fileName) {
     res.end();
   });
 
+  // Server listening on port 3000
   server.listen(3000, () => {
     console.log("Server is running on port 3000");
   });

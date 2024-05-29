@@ -3,6 +3,7 @@ const http = require("http");
 serveHtml("<h1>Hello, this is my Http file for QAP1 in FullStack</h1>");
 
 function serveHtml(theHtml) {
+  // Create Server
   const server = http.createServer(function (req, res) {
     console.log(req.url);
     console.log("html was served.");
@@ -11,6 +12,7 @@ function serveHtml(theHtml) {
     res.end();
   });
 
+  // Server listening on port 3000
   server.listen(3000, () => {
     console.log("Server is running on port 3000");
   });
